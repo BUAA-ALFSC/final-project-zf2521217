@@ -2,8 +2,6 @@
 
 本项目使用 MindSpore 复现论文 **Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting** 的核心方法，并在 Huawei ModelArts 上完成资源受限实验。原始 Lag-Llama 官方代码基于 PyTorch、Lightning 和 GluonTS；本目录提供面向课程作业的 MindSpore 实现、运行脚本、实验结果和可视化输出。
 
-课程任务要求：使用 MindSpore 深度学习框架复现 Lag-Llama，提交代码、Jupyter Notebook、README、研究报告和 PPT。
-
 ## 复现目标
 
 Lag-Llama 是一个面向单变量概率时间序列预测的基础模型。论文的核心结论包括：
@@ -417,21 +415,3 @@ results/figures/paper_deep_baselines_weather.png
 6. 下载 `results/`、Notebook、README、报告和 PPT；
 7. 停止或删除 Notebook，避免继续计费。
 
-## 提交建议
-
-建议提交材料包括：
-
-```text
-mindspore_lag_llama/src/
-mindspore_lag_llama/scripts/
-mindspore_lag_llama/notebooks/
-mindspore_lag_llama/README.md
-mindspore_lag_llama/MODELARTS.md
-mindspore_lag_llama/DATASETS.md
-mindspore_lag_llama/results/*.json
-mindspore_lag_llama/results/figures/
-研究报告.docx 或 PDF
-PPT
-```
-
-如果压缩包体积过大，checkpoint 可不全部提交；至少保留最佳 checkpoint 名称、训练历史 JSON、指标 JSON 和图像。

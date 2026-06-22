@@ -1,0 +1,8 @@
+mindspore
+numpy
+pandas
+matplotlib
+jupyter
+nbformat
+gluonts==0.14.4
+statsforecast
